@@ -7,9 +7,9 @@ Re-Design of NausDesign.com // Freelance // Portfolio // Resume.
       - HTML5
       - Sass->CSS
       - Jekyll ???
-  - Creat WireFrames drawings.
+  - Creat WireFrames drawings.  <---Started---<
   - Creat a Digital MocUp of site.
   - Start the Coding and get dirty!
   
 
-Any collaboration is accepted!
+Collaboration is accepted!
