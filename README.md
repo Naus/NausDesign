@@ -12,4 +12,4 @@ Re-Design of NausDesign.com // Freelance // Portfolio // Resume.
   - Start the Coding and get dirty!
   
 
-Collaboration is accepted!
+
