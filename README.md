@@ -6,6 +6,7 @@ Re-Design of NausDesign.com // Freelance // Portfolio // Resume.
     - Picking the tools to use.
       - HTML5
       - Sass?/CSS
+      - Burbon, Bitters, Neat.
       - Jekyll ???
   - Creat WireFrames drawings.  <---Started---<
   - Creat a Digital MocUp of site.
