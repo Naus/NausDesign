@@ -12,7 +12,14 @@ Re-Design of NausDesign.com // Freelance // Portfolio // Resume.
   - Creat a Digital MockUp of site. <-----Working----<
   - Start the Coding and get dirty! 
   
-Launceh and tested gh-pages. (Mar 2016)
+
+Recent Changes
+-----------------------------------------
+Launceh and tested gh-pages.  (Mar 2016)
+Got doamain with GoDaddy.com.  (Mar 2016)
+Created CNAME on github.  (Mar 2016)
+Pointed Nausdesign to Github.  (Mar 2016)
+
 
 
   
