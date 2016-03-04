@@ -9,10 +9,11 @@ Re-Design of NausDesign.com // Freelance // Portfolio // Resume.
       - Burbon, Bitters, Neat, Refills.
       - Jekyll 
   - Creat WireFrames drawings.  (done Feb 2016)
-  - Creat a Digital MocUp of site. <-----Working----<
+  - Creat a Digital MockUp of site. <-----Working----<
   - Start the Coding and get dirty! 
   
 Launceh and tested gh-pages. (Mar 2016)
+
 
   
 
