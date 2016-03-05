@@ -3,7 +3,7 @@
 }
 
 .grid-items {
-  $action-color: #477DCA !default;
+  $action-color: #95A5A6 !default;
   $base-background-color: white !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
@@ -11,11 +11,11 @@
   $grid-item-background: desaturate($action-color, 30%);
   $grid-item-colors: 
     desaturate($action-color, 30%), 
-    #3581A5, 
-    #5FBEBE,
-    #98C79A,
-    #A7A891, 
-    #BDCC97,
+    #2ECC71, 
+    #27AE60,
+    #BDC3C7, 
+    #95A5A6,
+    #27AE60,
     #979EA0;
   $grid-item-border-size: 9px;
   $grid-item-columns: 4;
@@ -54,7 +54,7 @@
 
         &:focus,
         &:hover {
-          background-color: darken($background-from-list, 10%);
+          background-color: darken($background-from-list, 20%);
           background-repeat: no-repeat;
           background-position: top;
           background-size: cover;
