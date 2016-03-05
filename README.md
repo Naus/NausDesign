@@ -6,7 +6,7 @@ Re-Design of NausDesign.com // Freelance // Portfolio // Resume.
     - Picking the tools to use. (done Mar 2016)
       - HTML5
       - Sass?/CSS
-      - Burbon, Bitters, Neat, Refills.
+      - Bourbon, Bitters, Neat, Refills.
       - Jekyll 
   - Creat WireFrames drawings.  (done Feb 2016)
   - Creat a Digital MockUp of site. <-----Working----<
@@ -19,7 +19,7 @@ Recent Changes
 - Got doamain with GoDaddy.com.  (Mar 2016)
 - Created CNAME on github.  (Mar 2016)
 - Pointed Nausdesign to Github.  (Mar 2016)
-
+- Added Refills(Nave, header, Portfolio, Footer) to learn and test. (Mar 2016)
 
 
   
