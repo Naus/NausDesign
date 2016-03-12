@@ -489,11 +489,56 @@ header {
 .logo--lg {
   position: absolute;
   top: 50px;
-  left: 25%; }
+  left: 28%; }
 
-#about {
-  height: 400px;
-  background: #bdc3c7; }
+.bullets {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 1.5;
+  overflow: auto;
+  padding: 50px 60px 50px 60px; }
+  .bullets .bullet {
+    -webkit-flex-basis: 20em;
+    -moz-flex-basis: 20em;
+    flex-basis: 20em;
+    -ms-flex-preferred-size: 20em;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    flex-grow: 1;
+    -ms-flex-positive: 1; }
+  .bullets .bullet-icon {
+    float: left;
+    height: 7em;
+    padding: 1.75em;
+    width: 7em; }
+  .bullets .bullet-content {
+    margin-left: 7em;
+    margin-bottom: 2em;
+    margin-right: 2em; }
+  .bullets h2 {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+    display: inline-block;
+    font-size: 2.8em;
+    padding-top: 0.7em; }
+  .bullets li {
+    list-style: none; }
+  .bullets p {
+    color: #333;
+    line-height: 1.5; }
+  .bullets img {
+    max-width: 100%; }
 
 #portfolio {
   height: 400px;
