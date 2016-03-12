@@ -493,6 +493,22 @@ header {
 
 #about {
   height: 400px;
-  background: silver; }
+  background: #bdc3c7; }
+
+#portfolio {
+  height: 400px;
+  background: #ecf0f1; }
+
+#services {
+  height: 400px;
+  background: #444; }
+
+#contact {
+  height: 400px;
+  background: #ecf0f1; }
+
+footer {
+  height: 200px;
+  background: #444; }
 
 /*# sourceMappingURL=main.css.map */
