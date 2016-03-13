@@ -10,7 +10,11 @@
   margin-bottom: $base-line-height;
   //margin: 1em;
   overflow: auto;
-  padding: 50px 60px 50px 60px;
+  padding: 20px 60px 20px 60px;
+  
+  @media screen and (max-width: 720px) {
+    padding: 0 0 0 0;
+  }
 
   .bullet {
     @include flex-basis(20em);
