@@ -540,7 +540,8 @@ nav {
   flex-wrap: wrap;
   margin-bottom: 1.5;
   overflow: auto;
-  padding: 20px 60px 20px 60px; }
+  padding: 20px 60px 20px 60px;
+  background-color: #ecf0f1; }
   @media screen and (max-width: 720px) {
     .bullets {
       padding: 0 0 0 0; } }
@@ -574,6 +575,14 @@ nav {
     line-height: 1.5; }
   .bullets img {
     max-width: 100%; }
+
+.hero-skills {
+  height: 400px;
+  background: url(../img/site_bg.jpg);
+  background-color: silver;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 #portfolio {
   height: 400px;
