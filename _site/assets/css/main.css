@@ -1,9 +1,3 @@
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #1565c0;
@@ -176,6 +170,12 @@ img,
 picture {
   margin: 0;
   max-width: 100%; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 @font-face {
   font-family: 'Fira Sans';
@@ -523,6 +523,9 @@ nav {
       content: "";
       display: table; }
 
+section {
+  background-color: #ecf0f1; }
+
 .bullets {
   display: -webkit-box;
   display: -moz-box;
@@ -540,8 +543,7 @@ nav {
   flex-wrap: wrap;
   margin-bottom: 1.5;
   overflow: auto;
-  padding: 20px 60px 20px 60px;
-  background-color: #ecf0f1; }
+  padding: 20px 60px 20px 60px; }
   @media screen and (max-width: 720px) {
     .bullets {
       padding: 0 0 0 0; } }
