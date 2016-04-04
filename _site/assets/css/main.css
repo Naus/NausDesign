@@ -465,22 +465,23 @@ hr {
 
 .logo {
   height: 150px;
-  width: 150px;
+  width: 100%;
   background-image: url(../img/logoHead.png);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   top: 30%;
-  left: 50%;
   margin-top: -50px; }
 
 .rocket {
   width: 1600px;
   height: 700px;
-  position: absolute; }
-  .rocket background {
-    image: url(../img/rocket.png);
-    repeat: no-repeat;
-    position: left bottom; }
+  background-image: url(../img/rocket.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+  top: 60px; }
 
 /*# sourceMappingURL=main.css.map */
