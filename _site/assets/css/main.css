@@ -454,13 +454,14 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
-header {
+.hero {
   position: relative;
   height: 760px;
   background-image: url(../img/headBG.jpg);
   background-size: auto 760px;
   background-position: top center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  overflow: hidden; }
 
 .logo {
   height: 150px;
