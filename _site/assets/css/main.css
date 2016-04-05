@@ -491,21 +491,6 @@ header {
     .nausTag {
       margin: 20px 0 0 20px; } }
 
-.sliding-panel-button {
-  height: 50px;
-  width: 50px;
-  margin: 25px 50px 0 0;
-  float: right;
-  cursor: pointer; }
-  @media (max-width: 1100px) {
-    .sliding-panel-button {
-      margin: 20px 30px 0 0;
-      height: 40px;
-      width: 40px; } }
-  @media (max-width: 330px) {
-    .sliding-panel-button {
-      margin: 20px 20px 0 0; } }
-
 .logo {
   height: 150px;
   width: 100%;
@@ -580,6 +565,21 @@ h1 {
     .rocket {
       background-size: 800px 300px; } }
 
+.sliding-panel-button {
+  height: 50px;
+  width: 50px;
+  margin: 25px 50px 0 0;
+  float: right;
+  cursor: pointer; }
+  @media (max-width: 1100px) {
+    .sliding-panel-button {
+      margin: 20px 30px 0 0;
+      height: 40px;
+      width: 40px; } }
+  @media (max-width: 330px) {
+    .sliding-panel-button {
+      margin: 20px 20px 0 0; } }
+
 .sliding-panel-content {
   position: fixed;
   top: 0;
@@ -626,6 +626,26 @@ h1 {
 
 .sliding-panel-close {
   cursor: pointer; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+li a {
+  border-bottom: 1px solid #34495e;
+  color: #eef3f5;
+  display: block;
+  font-weight: bold;
+  padding: 1em;
+  text-decoration: none; }
+  li a:focus {
+    background-color: #2ecc71; }
+  li a:hover {
+    background-color: #3d566e;
+    color: #eef3f5; }
 
 .wrapper {
   width: 1680px;
