@@ -380,8 +380,8 @@ body {
   background-color: white;
   font-size: 14px;
   line-height: 1.6;
-  font-family: "Fira Sans", sans-serif;
-  color: #666;
+  font-family: "Roboto", Fira Sans, sans-serif;
+  color: #eef3f5;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
@@ -454,10 +454,15 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.wrapper {
+  width: 1680px;
+  max-width: 100%;
+  margin: 0 auto; }
+
 header {
   text-align: center; }
 
-.hero {
+.parallax-window {
   position: relative;
   height: 760px;
   background-image: url(../img/headBG.jpg);
@@ -466,40 +471,39 @@ header {
   background-position: top center;
   background-attachment: fixed;
   overflow: hidden; }
+  @media (max-width: 500px) {
+    .parallax-window {
+      background-size: cover; } }
 
-.navLogo {
+.nausTag {
   font-family: "Roboto", sans-serif;
   float: left;
   color: #eef3f5;
   margin: 25px 0 0 50px;
   font-weight: 700;
   font-size: 24px; }
-  @media (max-width: 800px) {
-    .navLogo {
-      margin: 10px 0 0 10px;
+  @media (max-width: 1100px) {
+    .nausTag {
+      margin: 20px 0 0 20px;
       font-weight: 700;
       font-size: 18px; } }
-  @media (max-width: 500px) {
-    .navLogo {
-      margin: 10px 0 0 10px;
-      font-weight: 700;
-      font-size: 18px; } }
+  @media (max-width: 330px) {
+    .nausTag {
+      margin: 20px 0 0 20px; } }
 
-.menu {
+.menuBtn {
   height: 50px;
   width: 50px;
   margin: 25px 50px 0 0;
   float: right; }
-  @media (max-width: 800px) {
-    .menu {
-      margin: 10px 10px 0 0;
+  @media (max-width: 1100px) {
+    .menuBtn {
+      margin: 20px 30px 0 0;
       height: 40px;
       width: 40px; } }
-  @media (max-width: 500px) {
-    .menu {
-      margin: 10px 10px 0 0;
-      height: 40px;
-      width: 40px; } }
+  @media (max-width: 330px) {
+    .menuBtn {
+      margin: 20px 20px 0 0; } }
 
 .logo {
   height: 150px;
@@ -508,15 +512,54 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  top: 30%;
+  top: 22%;
   margin-top: -50px; }
+  @media (max-width: 500px) {
+    .logo {
+      background-size: 100px 100px; } }
 
-.slogan {
+h1 {
   color: #eef3f5;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 24px;
-  margin: 380px 10px 0px 10px; }
+  line-height: 1.75;
+  letter-spacing: 0.05em;
+  font-size: 28px;
+  margin: 300px 10px 0px 10px; }
+  @media (max-width: 1100px) {
+    h1 {
+      font-weight: 700;
+      font-size: 24px; } }
+  @media (max-width: 500px) {
+    h1 {
+      font-weight: 700;
+      font-size: 20px;
+      margin: 280px 10px 0px 10px; } }
+
+.kicker {
+  margin: 20px 10px 0 10px;
+  color: rgba(238, 243, 245, 0.4);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em; }
+
+.learnBtn {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.3rem 2rem;
+  margin: 20px 0 20px 0;
+  font-weight: 700;
+  color: #eef3f5;
+  text-alight: center;
+  background-color: rgba(52, 73, 94, 0.6); }
+
+.down-arrow {
+  height: 30px;
+  width: 30px;
+  margin: 100px 0 0 0; }
 
 .rocket {
   width: 100%;
@@ -526,12 +569,15 @@ header {
   background-position: right bottom;
   position: absolute;
   top: 60px; }
-  @media (max-width: 800px) {
+  @media (max-width: 1250px) {
     .rocket {
-      background-size: 100% 600px; } }
+      background-size: 1200px 600px; } }
+  @media (max-width: 1050px) {
+    .rocket {
+      background-size: 1000px 500px; } }
   @media (max-width: 500px) {
     .rocket {
-      background-size: 140% 300px; } }
+      background-size: 800px 300px; } }
 
 #about {
   background-color: #eef3f5;
