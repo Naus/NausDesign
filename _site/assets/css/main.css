@@ -454,6 +454,20 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.learn-cta {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem 2rem;
+  font-weight: 700;
+  font-size: 16px;
+  color: #eef3f5;
+  text-decoration: none;
+  text-alight: center;
+  background-color: rgba(52, 73, 94, 0.6); }
+  .learn-cta:hover {
+    background-color: #34495e; }
+
 .wrapper {
   width: 1680px;
   max-width: 100%;
@@ -523,24 +537,13 @@ h1 {
       margin: 280px 10px 0px 10px; } }
 
 .kicker {
-  margin: 20px 10px 0 10px;
+  margin: 20px 10px 30px 10px;
   color: rgba(238, 243, 245, 0.4);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em; }
-
-.learnBtn {
-  border: none;
-  outline: none;
-  border-radius: 0.5rem;
-  padding: 0.3rem 2rem;
-  margin: 30px 0 20px 0;
-  font-weight: 700;
-  color: #eef3f5;
-  text-alight: center;
-  background-color: rgba(52, 73, 94, 0.6); }
 
 .down-arrow {
   height: 30px;
