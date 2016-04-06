@@ -602,7 +602,7 @@ h1 {
   transition: all 0.25s linear;
   background: #34495e;
   -webkit-overflow-scrolling: touch;
-  overflow-y: auto;
+  overflow-y: hidden;
   z-index: 999999; }
   .sliding-panel-content.is-visible {
     -webkit-transform: translateX(0);
