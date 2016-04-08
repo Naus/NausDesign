@@ -696,17 +696,27 @@ li a {
   padding: 40px 0 20px 0; }
 
 #footer {
-  width: 100%;
-  background-image: url(../img/footerBG.jpg); }
+  width: 100%; }
 
 .logo-footer {
   margin: 20px 35px 10px 50px;
   float: left; }
+  @media (max-width: 500px) {
+    .logo-footer {
+      margin: 20px 0 10px 44%;
+      float: none;
+      display: block; } }
 
 .footer-nav-text {
   color: #eef3f5;
   font-size: 16px;
   margin: 30px 35px 0 0;
   float: left; }
+  @media (max-width: 500px) {
+    .footer-nav-text {
+      margin: 10px 0 0 0;
+      display: block;
+      float: none;
+      text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
