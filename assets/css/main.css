@@ -481,6 +481,37 @@ hr {
   width: 1680px;
   max-width: 100%;
   margin: 0 auto; }
+  .wrapper .flex {
+    display: flex;
+    flex-directions: row;
+    justify-content: center; }
+
+.col-1 {
+  max-width: 1500px; }
+
+.col-2 {
+  max-width: 750px;
+  margin: 0 25px; }
+
+.col-3 {
+  max-width: 500px;
+  margin: 0 25px; }
+
+@media (max-width: 640px) {
+  .wrapper .flex {
+    display: block; }
+
+  .col-2 {
+    max-width: 100%; } }
+.section-title-a {
+  text-align: center;
+  padding: 40px 0 20px 0;
+  color: #34495e; }
+
+.section-title-c {
+  text-align: center;
+  padding: 40px 0 20px 0;
+  color: #eef3f5; }
 
 header {
   text-align: center; }
@@ -688,12 +719,16 @@ li a {
   margin: 0 25px 0 0; }
 
 #about {
-  background-color: #eef3f5;
-  height: 900px; }
+  background-color: #eef3f5; }
 
-.page-title {
-  text-align: center;
-  padding: 40px 0 20px 0; }
+#portfolio {
+  background-color: #34495e; }
+
+#services {
+  background-color: #eef3f5; }
+
+#contact {
+  background-color: #34495e; }
 
 .logo-footer {
   margin: 20px 35px 10px 50px;
