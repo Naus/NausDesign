@@ -695,15 +695,12 @@ li a {
   text-align: center;
   padding: 40px 0 20px 0; }
 
-#footer {
-  width: 100%; }
-
 .logo-footer {
   margin: 20px 35px 10px 50px;
   float: left; }
   @media (max-width: 500px) {
     .logo-footer {
-      margin: 20px 0 10px 44%;
+      margin: 20px 0 20px 44%;
       float: none;
       display: block; } }
 
@@ -716,6 +713,16 @@ li a {
     .footer-nav-text {
       margin: 10px 0 0 0;
       display: block;
+      float: none;
+      text-align: center; } }
+
+.copyright {
+  margin: 32px 50px 0 0;
+  float: right;
+  font-size: 12px; }
+  @media (max-width: 500px) {
+    .copyright {
+      margin: 20px 0 10px 0;
       float: none;
       text-align: center; } }
 
