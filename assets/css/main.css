@@ -567,7 +567,7 @@ h1 {
       background-size: 1000px 500px; } }
   @media (max-width: 500px) {
     .rocket {
-      background-size: 800px 300px; } }
+      background-size: 600px 350px; } }
 
 .sliding-panel-button {
   height: 50px;
