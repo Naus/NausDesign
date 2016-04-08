@@ -529,7 +529,7 @@ header {
       margin-top: -80px;
       background-size: 100px 100px; } }
 
-h1 {
+.h1-head {
   color: #eef3f5;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -538,14 +538,14 @@ h1 {
   font-size: 28px;
   margin: 300px 10px 0px 10px; }
   @media (max-width: 1100px) {
-    h1 {
+    .h1-head {
       font-size: 24px; } }
   @media (max-width: 500px) {
-    h1 {
+    .h1-head {
       font-size: 20px;
       margin: 240px 10px 0px 10px; } }
   @media (max-width: 350px) {
-    h1 {
+    .h1-head {
       font-size: 14px; } }
 
 .kicker {
@@ -687,11 +687,12 @@ li a {
 .menu-icons {
   margin: 0 25px 0 0; }
 
-.wrapper {
-  width: 1680px;
-  max-width: 100%;
-  margin: 0 auto;
+#about {
   background-color: #eef3f5;
   height: 1200px; }
+
+.page-head {
+  text-align: center;
+  padding: 40px 0 20px 0; }
 
 /*# sourceMappingURL=main.css.map */
