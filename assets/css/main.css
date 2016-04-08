@@ -567,7 +567,8 @@ h1 {
       background-size: 1000px 500px; } }
   @media (max-width: 500px) {
     .rocket {
-      background-size: 600px 350px; } }
+      background-size: 435px 733px;
+      background-image: url(../img/rocket-mobile.png); } }
 
 .sliding-panel-button {
   height: 50px;
