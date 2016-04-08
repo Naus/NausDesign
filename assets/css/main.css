@@ -544,12 +544,14 @@ h1 {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05em;
+  font-size: 10px; }
 
 .down-arrow {
   height: 30px;
   width: 30px;
-  margin: 80px 0 20px 0; }
+  margin: 80px 0 20px 0;
+  margin: 60px 0 20px 0; }
 
 .rocket {
   width: 100%;
