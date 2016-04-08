@@ -12,7 +12,13 @@
   text-alight: center
   background:
     color: transparentize($asphalt, 0.4)
-  
+  @media (max-width: 440px)
+    font-size: 14px
+    padding: 0.3rem 1.8rem
+  @media (max-width: 380px)
+    font-size: 12px
+    padding: 0.3rem 1.8rem
+    
   &:hover
     background:
       color: $asphalt
