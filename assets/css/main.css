@@ -517,6 +517,7 @@ header {
   margin-top: -50px; }
   @media (max-width: 500px) {
     .logo {
+      margin-top: -80px;
       background-size: 100px 100px; } }
 
 h1 {
@@ -535,7 +536,7 @@ h1 {
     h1 {
       font-weight: 700;
       font-size: 20px;
-      margin: 280px 10px 0px 10px; } }
+      margin: 240px 10px 0px 10px; } }
 
 .kicker {
   margin: 20px 10px 30px 10px;
