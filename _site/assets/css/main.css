@@ -770,6 +770,9 @@ li a {
     @media (max-width: 1000px) {
       .skillBar .skillContainer {
         width: 380px; } }
+    @media (max-width: 800px) {
+      .skillBar .skillContainer {
+        width: 375px; } }
     @media (max-width: 400px) {
       .skillBar .skillContainer {
         width: 320px; } }
