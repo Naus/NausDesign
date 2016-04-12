@@ -826,6 +826,25 @@ li a {
 #portfolio {
   background-color: #34495e; }
 
+.thumb-container {
+  max-width: 750px;
+  margin: 0 auto; }
+  .thumb-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.thumb-unit {
+  margin: 2px 2px;
+  display: block;
+  width: 31%;
+  height: 150px;
+  float: left;
+  background-image: url(/assets/img/work/proj-1/thumb.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 #services {
   background-color: #eef3f5; }
 
