@@ -838,12 +838,11 @@ li a {
   margin: 2px 2px;
   display: block;
   width: 31%;
-  height: 150px;
+  height: 175px;
   float: left;
-  background-image: url(/assets/img/work/proj-1/thumb.jpg);
+  background-image: url(/assets/img/work/proj-1/thumb.png);
   background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-repeat: no-repeat; }
   .thumb-unit .thumb-overlay {
     text-align: center; }
     .thumb-unit .thumb-overlay strong {
