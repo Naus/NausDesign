@@ -10,8 +10,17 @@
   color: $clouds
   text-decoration: none
   text-alight: center
+  cursor: pointer
+  z-index: 2
+  position: relative
   background:
     color: transparentize($asphalt, 0.4)
+    
+  &:hover
+    color: $clouds
+    background:
+      color: $asphalt
+  
   @media (max-width: 440px)
     font-size: 14px
     padding: 0.3rem 1.8rem
@@ -19,8 +28,5 @@
     font-size: 12px
     padding: 0.3rem 1.8rem
     
-  &:hover
-    background:
-      color: $asphalt
     
 // ----------- END--------------
