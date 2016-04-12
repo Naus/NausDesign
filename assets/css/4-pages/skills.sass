@@ -3,33 +3,40 @@
   
 
 // Skill bar styles -------------
-
-.skill-lockup
-  //width: 700px
-  //margin : 20px auto 50px auto
-  padding: 0 0 50px 0
-
     
+.skill-box
+  margin: 50px auto
+  @include clearfix
+  
+  @media (max-width: 850px)
+    margin: auto auto
+
 .skillBar
-  width: 430px
-  float: left
+  margin-bottom: 20px
 
 
-  .skillBar h4 
+  h4 
     color: $asphalt
     font-size: 14px
     text-transform: none
     font-weight: bold
-  
-  
+    margin-bottom: 1px
+    padding: 0px
+    
+   
+   
   .skillContainer 
-    width: 100%
-    //max-width: 425px
+    width: 625px
     height: 10px
     background: $asphalt
     //overflow: hidden
     border-radius: 3px
-    margin: 0 5px0 10px 0
+    
+    @media (max-width: 1400px)
+      width: 450px
+      
+    @media (max-width: 1000px)
+      width: 380px
 
 
 .skillValue 
