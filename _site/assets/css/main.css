@@ -844,6 +844,16 @@ li a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
+  .thumb-unit .thumb-overlay {
+    text-align: center; }
+    .thumb-unit .thumb-overlay strong {
+      display: block;
+      padding: 20px;
+      color: #eef3f5;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-size: 18px;
+      line-height: 1.2; }
 
 #services {
   background-color: #eef3f5; }
