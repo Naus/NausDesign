@@ -25,18 +25,19 @@ $medium-screen: em(640) !default
     repeat: no-repeat
     //size: cover
     
+  
     
   .thumb-overlay
     height: inherit
-    background: transparentize(#000, 0.5)
+    background: transparentize(#000, 0.6)
     text-align: center
     overflow: hidden
     transition: all 0.5s ease-in-out
-  
+    
     
     strong
       display: block
-      padding: 20px
+      padding: 18px
       color: $clouds
       font-weight: 300
       text-transform: uppercase
@@ -45,4 +46,7 @@ $medium-screen: em(640) !default
     
     &:hover
       transform: translate(0, 100%)
-
+      -webkit-transform: translate(0, 100%)
+      -ms-transform: translate(0, 100%)
+      
+      
