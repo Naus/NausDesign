@@ -718,7 +718,7 @@ li a {
 
 .menu-social-icons {
   width: 40px;
-  hight: 40px;
+  height: 40px;
   margin: 20px 0 0 14px; }
 
 .menu-icons {
@@ -730,7 +730,7 @@ li a {
 .profile-img {
   display: block;
   width: 200px;
-  hight: 200px;
+  height: 200px;
   margin: 0 auto 20px auto; }
 
 .p-dark {
@@ -828,7 +828,8 @@ li a {
 
 .thumb-container {
   max-width: 750px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 30px; }
   .thumb-container::after {
     clear: both;
     content: "";
@@ -837,7 +838,7 @@ li a {
 .thumb-unit {
   margin: 2px 2px;
   display: block;
-  width: 31%;
+  width: 48%;
   height: 175px;
   float: left;
   background-image: url(/assets/img/work/proj-1/thumb.png);

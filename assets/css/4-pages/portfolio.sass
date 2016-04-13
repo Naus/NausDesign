@@ -1,25 +1,34 @@
+$medium-screen: em(640) !default
+
 #portfolio
   background-color: $asphalt
   
 .thumb-container
   max-width: 750px
   margin: 0 auto
+  padding-bottom: 30px
   @include clearfix
   
 .thumb-unit
   margin: 2px 2px
   display: block
-  width: 31%
+  width: 48%
   height: 175px
   float: left
+  //position: relative
+  //padding-top: 20%
   background: 
     image: url(/assets/img/work/proj-1/thumb.png)
     position: center center
     repeat: no-repeat
     //size: cover
     
+    
   .thumb-overlay
+    //position: absolute
+    //top: 0
     text-align: center
+  
     
     strong
       display: block
