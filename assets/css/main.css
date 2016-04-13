@@ -486,7 +486,6 @@ hr {
   outline: none;
   border-radius: 0.5rem;
   padding: 0.4rem 2rem;
-  margin: 20px 0 20px 0;
   font-weight: 700;
   font-size: 16px;
   color: #eef3f5;
@@ -892,10 +891,13 @@ li a {
   color: #34495e;
   width: 100%;
   text-align: center;
-  padding: 10px 10px;
+  padding: 0 15px 25px 15px;
   border-radius: 10px;
   box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
   background-color: white; }
+
+.p-service {
+  padding-bottom: 25px; }
 
 #contact {
   background-color: #34495e; }
