@@ -841,11 +841,17 @@ li a {
   width: 48%;
   height: 175px;
   float: left;
+  cursor: pointer;
+  overflow: hidden;
   background-image: url(/assets/img/work/proj-1/thumb.png);
   background-position: center center;
   background-repeat: no-repeat; }
   .thumb-unit .thumb-overlay {
-    text-align: center; }
+    height: inherit;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out; }
     .thumb-unit .thumb-overlay strong {
       display: block;
       padding: 20px;
@@ -854,6 +860,8 @@ li a {
       text-transform: uppercase;
       font-size: 18px;
       line-height: 1.2; }
+    .thumb-unit .thumb-overlay:hover {
+      transform: translate(0, 100%); }
 
 #services {
   background-color: #eef3f5; }

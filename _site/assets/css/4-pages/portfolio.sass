@@ -15,6 +15,8 @@ $medium-screen: em(640) !default
   width: 48%
   height: 175px
   float: left
+  cursor: pointer
+  overflow: hidden
   //position: relative
   //padding-top: 20%
   background: 
@@ -25,9 +27,11 @@ $medium-screen: em(640) !default
     
     
   .thumb-overlay
-    //position: absolute
-    //top: 0
+    height: inherit
+    background: transparentize(#000, 0.5)
     text-align: center
+    overflow: hidden
+    transition: all 0.5s ease-in-out
   
     
     strong
@@ -39,6 +43,6 @@ $medium-screen: em(640) !default
       font-size: 18px
       line-height: 1.2
     
-  //&:hover
-    
+    &:hover
+      transform: translate(0, 100%)
 
