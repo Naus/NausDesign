@@ -523,11 +523,15 @@ hr {
   .wrapper .flex {
     display: block; }
 
+  .col-1 {
+    max-width: 100%; }
+
   .col-2 {
     max-width: 100%; }
 
   .col-3 {
-    padding: 25px 0px; } }
+    padding: 25px 0px;
+    max-width: 100%; } }
 .section-title-a {
   text-align: center;
   padding: 40px 0 20px 0;
