@@ -843,7 +843,6 @@ li a {
   float: left;
   cursor: pointer;
   overflow: hidden;
-  background-image: url(/assets/img/work/proj-1/thumb.png);
   background-position: center center;
   background-repeat: no-repeat; }
   .thumb-unit .thumb-overlay {
