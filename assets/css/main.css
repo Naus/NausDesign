@@ -481,6 +481,23 @@ hr {
       font-size: 12px;
       padding: 0.3rem 1.8rem; } }
 
+.service-cta {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem 2rem;
+  margin: 20px 0 20px 0;
+  font-weight: 700;
+  font-size: 16px;
+  color: #eef3f5;
+  text-decoration: none;
+  text-alight: center;
+  cursor: pointer;
+  background-color: rgba(46, 204, 113, 0.6); }
+  .service-cta:hover {
+    color: #eef3f5;
+    background-color: #2ecc71; }
+
 .wrapper {
   width: 1680px;
   max-width: 100%;
@@ -500,14 +517,18 @@ hr {
 
 .col-3 {
   max-width: 500px;
-  margin: 0 25px; }
+  margin: 0 25px;
+  padding: 50px 0px; }
 
 @media (max-width: 850px) {
   .wrapper .flex {
     display: block; }
 
   .col-2 {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .col-3 {
+    padding: 25px 0px; } }
 .section-title-a {
   text-align: center;
   padding: 40px 0 20px 0;
@@ -866,6 +887,15 @@ li a {
 
 #services {
   background-color: #eef3f5; }
+
+.service-box {
+  color: #34495e;
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+  background-color: white; }
 
 #contact {
   background-color: #34495e; }
