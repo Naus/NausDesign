@@ -980,6 +980,12 @@ li a {
         border-color: #2ecc71;
         box-shadow: #2ecc71;
         outline: none; }
+    .form-container form .send-cta {
+      background-color: #34495e; }
+      .form-container form .send-cta:hover {
+        background-color: #25a35a; }
+      .form-container form .send-cta:focus {
+        background-color: #2ecc71; }
 
 .logo-footer {
   margin: 20px 35px 10px 50px;
