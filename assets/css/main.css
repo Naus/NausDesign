@@ -945,6 +945,7 @@ li a {
 
 .contact-conatiner {
   text-align: center;
+  margin: 0 auto;
   padding-bottom: 30px; }
   .contact-conatiner h4 {
     color: #eef3f5; }
