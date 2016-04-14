@@ -951,12 +951,15 @@ li a {
 
 .social-icon-container {
   padding-bottom: 30px; }
+  .social-icon-container a {
+    text-align: center;
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s; }
 
 .contact-social-icon {
   max-width: 700px;
   margin: 0px 23px; }
-  .contact-social-icon a {
-    text-align: center; }
 
 .logo-footer {
   margin: 20px 35px 10px 50px;
