@@ -940,6 +940,24 @@ li a {
 #contact {
   background-color: #34495e; }
 
+.contact-logo {
+  padding-bottom: 30px; }
+
+.contact-conatiner {
+  text-align: center;
+  padding-bottom: 30px; }
+  .contact-conatiner h4 {
+    color: #eef3f5; }
+
+.social-icon-container {
+  padding-bottom: 30px; }
+
+.contact-social-icon {
+  max-width: 700px;
+  margin: 0px 23px; }
+  .contact-social-icon a {
+    text-align: center; }
+
 .logo-footer {
   margin: 20px 35px 10px 50px;
   float: left; }
