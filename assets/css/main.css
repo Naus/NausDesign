@@ -961,6 +961,9 @@ li a {
   max-width: 700px;
   margin: 0px 23px; }
 
+.form-container {
+  color: #34495e; }
+
 .logo-footer {
   margin: 20px 35px 10px 50px;
   float: left; }
