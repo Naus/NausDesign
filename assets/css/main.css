@@ -961,6 +961,9 @@ li a {
 .contact-social-icon {
   max-width: 700px;
   margin: 0px 23px; }
+  @media (max-width: 420px) {
+    .contact-social-icon {
+      margin: 0px 15px; } }
 
 .form-container {
   color: #eef3f5;
