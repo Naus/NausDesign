@@ -497,6 +497,36 @@ hr {
     color: #eef3f5;
     background-color: #2ecc71; }
 
+.behance-cta {
+  border: none;
+  outline: none;
+  padding: 0.4rem 2rem;
+  font-weight: 700;
+  font-size: 16px;
+  color: #eef3f5;
+  text-decoration: none;
+  text-alight: center;
+  cursor: pointer;
+  background-color: rgba(23, 105, 255, 0.8); }
+  .behance-cta:hover {
+    color: #eef3f5;
+    background-color: #1769ff; }
+
+.dribble-cta {
+  border: none;
+  outline: none;
+  padding: 0.4rem 2rem;
+  font-weight: 700;
+  font-size: 16px;
+  color: #eef3f5;
+  text-decoration: none;
+  text-alight: center;
+  cursor: pointer;
+  background-color: rgba(234, 76, 137, 0.8); }
+  .dribble-cta:hover {
+    color: #eef3f5;
+    background-color: #ea4c89; }
+
 .wrapper {
   width: 1680px;
   max-width: 100%;
