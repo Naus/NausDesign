@@ -18,6 +18,11 @@ $(document).ready(function(){
        var url = $this.attr("href");
        var windowName = "popUp";
        var windowSize = $this.data("popup");
+       var windowWidth = 800;
+       var windowHeight = 800;
+       var windowLeft = parseInt((screen.availWidth/2) - (windowWidth/2));
+       var windowTop = parseInt((screen.availHeight/2) - (windowHeight/2));
+       var windowSize = "width=" + windowWidth + ",height=" + windowHeight + ",left=" + windowLeft + ",top=" + windowTop + "screenX=" + windowLeft + ",screenY=" + windowTop;
        window.open(url, windowName, windowSize);
    });
 });
