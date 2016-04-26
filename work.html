@@ -11,16 +11,17 @@
 <body>
 <div class="wrapper">
 
-<div class="flex">   
+  <div class="flex">   
     <div class="col-1">
      
-     {% for project in site.data.settings.works %}
-     
-      <h3 class="section-title-c">{{ works.name }}</h3>
+      <div class="work-load">
+       
+        {% for project in site.data.settings.works %}
+          <h3 class="section-title-c">{{ works.name }}</h3>
+        {% endfor %}  
       
-      
-     {% endfor %}  
-      
+      </div>
+    
     </div>  
   </div>
 
