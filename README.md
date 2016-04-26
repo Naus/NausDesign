@@ -1,25 +1,12 @@
 # NausDesign
 Re-Design of NausDesign.com // Freelance // Portfolio // Resume.
 
-- Plans
-  - Creat a list of To-Do's and ideas. (done Feb 2016)
-    - Picking the tools to use. (done Mar 2016)
-      - HTML5
-      - Sass?/CSS
-      - Bourbon, Bitters, Neat, Refills.
-      - Jekyll 
-  - Creat WireFrames drawings.  (done Feb 2016)
-  - Creat a Digital MockUp of site. <-----Working----<
-  - Start the Coding and get dirty! 
-  
+Set out a goal to re-brand my self and my design company. 
+As of April 2016 I have officially launched my new website!
 
-Recent Changes
------------------------------------------
-- Launceh and tested gh-pages.  (Mar 2016)
-- Got doamain with GoDaddy.com.  (Mar 2016)
-- Created CNAME on github.  (Mar 2016)
-- Pointed Nausdesign to Github.  (Mar 2016)
-- Added Refills(Nav, header, Portfolio, Footer) to learn and test. (Mar 2016)
+Welcome to NausDesign.com, main purpose to advertise me self and help people with design and self branding. 
+
+This site was built as a static site using tools like, Jekyll, Bourbon, Sass/CSS3, HTML5, JQuery.
 
 
   
