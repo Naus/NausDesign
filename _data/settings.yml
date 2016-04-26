@@ -7,6 +7,7 @@ projects:
 - {name: Moe Clean website, folder: 'proj-3'}
 - {name: SongKane website, folder: 'proj-4'}
 
+# ---------------------
 
 # portfolio / Work section
 
@@ -15,3 +16,5 @@ works:
 - {name: NausDesign re-branding, folder: 'proj-2'}
 - {name: Moe Clean website, folder: 'proj-3'}
 - {name: SongKane website, folder: 'proj-4'}
+
+# ---------------------
