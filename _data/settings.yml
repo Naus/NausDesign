@@ -8,13 +8,3 @@ projects:
 - {name: SongKane website, folder: 'proj-4'}
 
 # ---------------------
-
-# portfolio / Work section
-
-works:
-- {name: One Up King App, folder: 'proj-1'}
-- {name: NausDesign re-branding, folder: 'proj-2'}
-- {name: Moe Clean website, folder: 'proj-3'}
-- {name: SongKane website, folder: 'proj-4'}
-
-# ---------------------
