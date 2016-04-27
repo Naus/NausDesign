@@ -901,7 +901,8 @@ li a {
   cursor: pointer;
   overflow: hidden;
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
   .thumb-unit .thumb-overlay {
     height: inherit;
     background: rgba(0, 0, 0, 0.4);
