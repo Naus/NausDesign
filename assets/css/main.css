@@ -906,7 +906,7 @@ li a {
   background-size: cover; }
   .thumb-unit .thumb-overlay {
     height: inherit;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.3);
     text-align: center;
     overflow: hidden;
     transition: all 0.5s ease-in-out; }
@@ -918,10 +918,6 @@ li a {
       text-transform: uppercase;
       font-size: 18px;
       line-height: 1.2; }
-    .thumb-unit .thumb-overlay:hover {
-      transform: translate(0, 100%);
-      -webkit-transform: translate(0, 100%);
-      -ms-transform: translate(0, 100%); }
 
 .be-cta-box {
   text-align: center;
