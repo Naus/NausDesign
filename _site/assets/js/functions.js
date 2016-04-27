@@ -29,3 +29,12 @@ $(document).ready(function(){
 
 //---------------------------------------------
 
+$(document).ready(function(){
+    $(".thumb-unit").mouseenter(function(){
+        $(".thumb-overlay").fadeIn();
+    });
+  
+   $(".thumb-overlay").mouseleave(function(){
+        $(".thumb-overlay").fadeout();
+    });
+});
