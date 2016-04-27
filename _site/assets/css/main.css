@@ -464,7 +464,7 @@ hr {
   font-size: 16px;
   color: #eef3f5;
   text-decoration: none;
-  text-alight: center;
+  text-align: center;
   cursor: pointer;
   z-index: 2;
   position: relative;
@@ -490,7 +490,7 @@ hr {
   font-size: 16px;
   color: #eef3f5;
   text-decoration: none;
-  text-alight: center;
+  text-align: center;
   cursor: pointer;
   background-color: rgba(46, 204, 113, 0.8); }
   .service-cta:hover {
@@ -498,22 +498,23 @@ hr {
     background-color: #2ecc71; }
 
 .behance-cta {
-  border: 2px solid #eef3f5;
+  display: block;
+  width: 100%;
+  border: none;
   outline: none;
+  margin: 0 auto;
   padding: 0.4rem 2rem;
   font-weight: 700;
   font-size: 16px;
   color: #eef3f5;
   text-decoration: none;
-  text-alight: center;
-  cursor: pointer;
-  background-color: rgba(23, 105, 255, 0.1); }
+  text-alighn: center;
+  cursor: pointer; }
+  .behance-cta:hover {
+    color: #eef3f5; }
   @media (max-width: 397px) {
     .behance-cta {
       font-size: 12px; } }
-  .behance-cta:hover {
-    color: #eef3f5;
-    background-color: #1769ff; }
 
 .dribble-cta {
   border: none;
@@ -523,7 +524,7 @@ hr {
   font-size: 16px;
   color: #eef3f5;
   text-decoration: none;
-  text-alight: center;
+  ttext-align: center;
   cursor: pointer;
   background-color: rgba(234, 76, 137, 0.8); }
   .dribble-cta:hover {
@@ -923,25 +924,14 @@ li a {
       -ms-transform: translate(0, 100%); }
 
 .be-cta-box {
-  margin: 0 0 50px 200px; }
-  @media (max-width: 1300px) {
-    .be-cta-box {
-      margin: 0 0 25px 140px; } }
-  @media (max-width: 1010px) {
-    .be-cta-box {
-      margin: 0 0 25px 25px; } }
-  @media (max-width: 800px) {
-    .be-cta-box {
-      margin: 0 0 25px 190px; } }
-  @media (max-width: 500px) {
-    .be-cta-box {
-      margin: 0 0 25px 35px; } }
-  @media (max-width: 420px) {
-    .be-cta-box {
-      margin: 0 0 25px 25px; } }
-  @media (max-width: 350px) {
-    .be-cta-box {
-      margin: 0 0 25px 5px; } }
+  text-align: center;
+  border: 2px solid #eef3f5;
+  margin: 0 auto 50px auto;
+  padding: 5px;
+  cursor: pointer; }
+  .be-cta-box:hover {
+    color: #eef3f5;
+    background-color: #1769ff; }
 
 #services {
   background-color: #eef3f5; }

@@ -9,7 +9,7 @@
   font-size: 16px
   color: $clouds
   text-decoration: none
-  text-alight: center
+  text-align: center
   cursor: pointer
   z-index: 2
   position: relative
@@ -42,7 +42,7 @@
   font-size: 16px
   color: $clouds
   text-decoration: none
-  text-alight: center
+  text-align: center
   cursor: pointer
   background:
     color: transparentize($emerald, 0.2)
@@ -56,27 +56,28 @@
 
 // Behance CTA -----------
 .behance-cta
-  border: 2px solid $clouds
+  display: block
+  width: 100%
+  border: none
   outline: none
+  margin: 0 auto
   //border-radius: 0.5rem
   padding: 0.4rem 2rem
   font-weight: 700
   font-size: 16px
   color: $clouds
   text-decoration: none
-  text-alight: center
+  text-alighn: center
   cursor: pointer
-  background:
-    color: transparentize(#1769ff, 0.9)
+  
+  &:hover
+    color: $clouds
+  
     
   @media (max-width: 397px)
     font-size: 12px
     
-  &:hover
-    color: $clouds
-    background:
-      color: #1769ff
-    
+  
 // ----------- END--------------
 
 // dribble CTA -----------
@@ -89,7 +90,7 @@
   font-size: 16px
   color: $clouds
   text-decoration: none
-  text-alight: center
+  ttext-align: center
   cursor: pointer
   background:
     color: transparentize(#ea4c89, 0.2)
