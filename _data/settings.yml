@@ -3,8 +3,8 @@
 
 projects:
 - {name: One Up King App, folder: 'proj-1'}
-- {name: NausDesign re-branding, url: www.nausdesign.com, folder: 'proj-2'}
-- {name: Moe Clean website, [setid]: http://www.behance.net/gallery/36542325/Moe-Clean-More-Web-Design, folder: 'proj-3'}
+- {name: NausDesign re-branding, external_url: http://www.nausdesign.com, folder: 'proj-2'}
+- {name: Moe Clean website, external_url: http://www.behance.net/gallery/36542325/Moe-Clean-More-Web-Design, folder: 'proj-3'}
 - {name: SongKane website, folder: 'proj-4'}
 
 # ---------------------
