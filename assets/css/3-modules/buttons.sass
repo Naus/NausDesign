@@ -56,7 +56,7 @@
 
 // Behance CTA -----------
 .behance-cta
-  border: none
+  border: 2px solid $clouds
   outline: none
   //border-radius: 0.5rem
   padding: 0.4rem 2rem
@@ -67,7 +67,10 @@
   text-alight: center
   cursor: pointer
   background:
-    color: transparentize(#1769ff, 0.2)
+    color: transparentize(#1769ff, 0.9)
+    
+  @media (max-width: 397px)
+    font-size: 12px
     
   &:hover
     color: $clouds
