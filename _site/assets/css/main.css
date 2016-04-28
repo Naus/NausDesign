@@ -905,6 +905,7 @@ li a {
   background-repeat: no-repeat;
   background-size: cover; }
   .thumb-unit .thumb-overlay {
+    visibility: hidden;
     height: inherit;
     background: rgba(0, 0, 0, 0.35);
     text-align: center;
@@ -919,9 +920,17 @@ li a {
       font-size: 18px;
       line-height: 1.2; }
     .thumb-unit .thumb-overlay:hover {
-      transform: translate(0, -100%);
-      -webkit-transform: translate(0, -100%);
-      -ms-transform: translate(0, -100%); }
+      transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%); }
+    .thumb-unit .thumb-overlay .be-cover {
+      text-align: center;
+      higth: 300px;
+      width: 300px;
+      background-image: url(/assets/img/becover.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
 
 .be-cta-box {
   text-align: center;

@@ -27,6 +27,7 @@
     
   
   .thumb-overlay
+    visibility: hidden
     height: inherit
     background: transparentize(#000, 0.65)
     text-align: center
@@ -44,9 +45,20 @@
       line-height: 1.2
     
     &:hover
-      transform: translate(0, -100%)
-      -webkit-transform: translate(0, -100%)
-      -ms-transform: translate(0, -100%)
+      transform: translate(0, -50%)
+      -webkit-transform: translate(0, -50%)
+      -ms-transform: translate(0, -50%)
+    
+    .be-cover
+      text-align: center
+      higth: 300px
+      width: 300px
+      background: 
+        image: url(/assets/img/becover.png)
+        position: center center
+        repeat: no-repeat
+        size: cover
+    
  
   
 .be-cta-box
@@ -63,4 +75,4 @@
     background:
       color: #1769ff
   
-    
+
