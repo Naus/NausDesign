@@ -1,10 +1,37 @@
-# ---------------------
+#-------------------------------
+# General Site Settings
+
+title: NausDesign Website
+description: Designer and Web Development
+email: NausDesign@gmail.com
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Design websites, design logos, branding, Ux design, UI design, and website Development'
+  rel-author: 'https://nausdesign.com'
+  rel-publisher: 'https://nausdesign.com'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
 # portfolio section
 
 projects:
-- {name: One Up King App, folder: 'proj-1'}
-- {name: NausDesign re-branding, folder: 'proj-2'}
-- {name: Moe Clean website, folder: 'proj-3'}
-- {name: SongKane website, folder: 'proj-4'}
+- {name: One Up King App, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: NausDesign re-branding, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Moe Clean website, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: SongKane website, folder: 'proj-4', file: 'work/proj-4.html'}
 
-# ---------------------
+#-------------------------------

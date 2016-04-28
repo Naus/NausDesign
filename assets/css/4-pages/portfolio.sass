@@ -1,6 +1,28 @@
 #portfolio
   background-color: $asphalt
+  padding-bottom: 50px
 
+  
+.section-work
+  overflow-x: hidden
+
+
+.work-belt
+  width: 200%
+  position: relative
+  left: 0%
+  +transition(all, 800ms)
+
+  &.slided
+    +transform(translate3d(-52%, 0, 0))
+    @media (max-width: 500px)
+      +transform(translate3d(-51%, 0, 0))
+      
+
+.thumb-wrap, .work-wrap
+  width: 50%
+  float: left
+  
 .thumb-wrap
   margin: 0 auto 30px auto
   padding: 0 10px
@@ -62,10 +84,11 @@
       
  
 .be-cta-box
+  //display: inline-block
   //max-width: 700px
   text-align: center
   border: 2px solid $clouds
-  margin: 0 auto 50px auto
+  margin: 0 auto 0 auto
   padding: 5px
   cursor: pointer
   
@@ -76,3 +99,44 @@
       color: #1769ff
   
 
+.work-container
+  max-width: 600px
+  margin: 0px auto
+  padding: 0 15px
+  //+box-sizing(border-box)
+
+  position: relative
+  display: none
+
+  h4, noscript h4
+    color: $clouds
+    font-weight: 300
+    text-transform: uppercase
+    font-size: 28px
+    line-height: 1.2
+    margin: 0 0 20px
+
+  img
+    max-width: 100%
+    margin-bottom: 20px
+
+  .work-return
+    +size(40px)
+    cursor: pointer
+    opacity: 0.5
+    +position(absolute, 4px null null -15px)
+
+
+    &:hover
+      opacity: 1
+
+
+
+@media (max-width: 1000px)
+  .work-container
+
+    .work-return
+      left: 0px
+
+    h4
+      margin-left: 60px
