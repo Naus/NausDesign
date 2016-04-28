@@ -885,7 +885,8 @@ li a {
   background-color: #34495e; }
 
 .thumb-wrap {
-  margin: 0 auto 30px auto; }
+  margin: 0 auto 30px auto;
+  padding: 0 10px; }
 
 .thumb-container {
   display: block;
