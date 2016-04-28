@@ -919,18 +919,6 @@ li a {
       text-transform: uppercase;
       font-size: 18px;
       line-height: 1.2; }
-    .thumb-unit .thumb-overlay:hover {
-      transform: translate(0, -50%);
-      -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%); }
-    .thumb-unit .thumb-overlay .be-cover {
-      text-align: center;
-      higth: 300px;
-      width: 300px;
-      background-image: url(/assets/img/becover.png);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
 
 .be-cta-box {
   text-align: center;
