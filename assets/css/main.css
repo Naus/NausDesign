@@ -802,6 +802,9 @@ li a {
 
 #skills {
   background-color: #eef3f5; }
+  @media (max-width: 500px) {
+    #skills {
+      padding-bottom: 30px; } }
 
 .skill-box {
   margin: 50px auto; }
