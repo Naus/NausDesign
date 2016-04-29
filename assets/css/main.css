@@ -881,6 +881,13 @@ li a {
 .value-100 {
   width: 100%; }
 
+.key-note {
+  color: #798b9e;
+  font-size: 11px;
+  text-transform: none;
+  padding: 0px;
+  text-align: center; }
+
 #portfolio {
   background-color: #34495e;
   padding-bottom: 50px; }
