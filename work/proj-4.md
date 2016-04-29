@@ -2,9 +2,9 @@
 title: Website design
 ---
 
-![One Up King](assets/img/work/proj-4/thumb.png)
+![SongKane](assets/img/work/proj-4/thumb.png)
 
 
-Website Design
+Website Design for SongKane, a very talented women that makes the best macarons and many other goodies. "Coming soon" 
 
 <hr>
