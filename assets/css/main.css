@@ -1003,6 +1003,10 @@ li a {
   padding: 0 15px;
   position: relative;
   display: none; }
+  .work-container p {
+    color: #eef3f5;
+    text-align: center;
+    margin-bottom: 40px; }
   .work-container h4, .work-container noscript h4 {
     color: #eef3f5;
     font-weight: 300;
@@ -1012,7 +1016,7 @@ li a {
     margin: 0 0 20px; }
   .work-container img {
     max-width: 100%;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   .work-container .work-return {
     height: 40px;
     width: 40px;
