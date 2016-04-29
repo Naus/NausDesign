@@ -887,6 +887,9 @@ li a {
   text-transform: none;
   padding: 0px;
   text-align: center; }
+  @media (max-width: 850px) {
+    .key-note {
+      margin: 0 15px 30px 15px; } }
 
 #portfolio {
   background-color: #34495e;
